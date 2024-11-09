@@ -244,7 +244,7 @@ JavaScript's built-in objects are part of the **global object** in the environme
 6. **Math**
     - The `Math` object contains methods and properties for mathematical constants and functions.
     - It includes basic arithmetic operations, rounding functions, and trigonometric methods.
-    - **Math Methods**
+    - **Math Methods:**
         - **Math.round( ), Math.ceil( ), Math.floor( )**
             - **Math.round( ):** Rounds to the nearest integer.
             - **Math.ceil( ):** Rounds up to the next integer.
@@ -275,7 +275,7 @@ JavaScript's built-in objects are part of the **global object** in the environme
 7. **RegExp (Regular Expression)**
     - The `RegExp` object is used to create regular expressions for pattern matching and string search/replace operations.
     - Regular expressions are powerful tools for working with text patterns.
-    - **RegExp Methods**
+    - **RegExp Methods:**
         - **test( )**
             - Checks if a pattern exists in a string, returning `true` or `false`.
                 
@@ -327,7 +327,7 @@ JavaScript's built-in objects are part of the **global object** in the environme
 8. **JSON** (JavaScript Object Notation)
     - The `JSON` object allows us to convert between JavaScript objects and JSON strings.
     - JSON is a common format for data exchange, especially in web APIs.
-    - **JSON Methods**
+    - **JSON Methods:**
         - **JSON.stringify( )**
             - Converts a JavaScript object to a JSON string.
                 
@@ -349,7 +349,7 @@ JavaScript's built-in objects are part of the **global object** in the environme
 9. **Promise** (for Asynchronous Programming)
     - A `Promise` is an object representing the eventual completion (or failure) of an asynchronous operation.
     - It allows us to work with asynchronous code in a more manageable way.
-    - **Promise Methods**
+    - **Promise Methods:**
         - **then( )**
             - Handles the resolved value of a promise.
                 
