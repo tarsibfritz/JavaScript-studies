@@ -19,7 +19,7 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 console.log(Object.keys(person)); // ["name", "age", "city"]
                 ```
                 
-        - Object.values( )
+        - **Object.values( )**
             - Returns an array containing all of the property values of the given object.
                 
                 ```jsx
@@ -28,7 +28,7 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 console.log(Object.values(person)); // ["Alice", 25, "Paris"]
                 ```
                 
-        - Object.entries( )
+        - **Object.entries( )**
             - Returns an array of `[key, value]` pairs for each property in the object.
             
             ```jsx
