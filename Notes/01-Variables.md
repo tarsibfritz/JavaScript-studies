@@ -1,10 +1,5 @@
-<aside>
-<img src="/icons/code_purple.svg" alt="/icons/code_purple.svg" width="40px" />
-
-What is a variable?
+# What is a variable?
 In programming, a **variable** is a container for storing data values. They allow you to store various data types, such as numbers, text, arrays, and more, that you can manipulate throughout your program.
-
-</aside>
 
 ## Variable Types in JavaScript
 
