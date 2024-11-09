@@ -9,7 +9,7 @@ JavaScript's built-in objects are part of the **global object** in the environme
 1. **Object**
     - The `Object` object is the root of all objects in JavaScript. Every other object in JavaScript is either an instance of `Object` or has it in its prototype chain.
     - It provides basic methods for working with properties and prototypes.
-    - **Object Methods**
+    - **Object Methods:**
         - **Object.keys( )**
             - Returns an array containing all of the property names (keys) of the given object.
                 
@@ -40,7 +40,7 @@ JavaScript's built-in objects are part of the **global object** in the environme
 2. **Array**
     - The `Array` object is used to create arrays, which are lists of ordered elements.
     - Arrays come with many useful methods to manipulate and access elements.
-    - **Array Methods**
+    - **Array Methods:**
         - **push( )**
             - Adds one or more elements to the end of an array and returns the new length of the array.
                 
@@ -97,7 +97,7 @@ JavaScript's built-in objects are part of the **global object** in the environme
 3. **String**
     - The `String` object is used to create, manipulate, and work with text (strings).
     - Strings are **immutable**, so methods return new strings rather than modifying the original string.
-    - **String Methods**
+    - **String Methods:**
         - **toUpperCase( ) and toLowerCase( )**
             - Converts a string to uppercase or lowercase, respectively.
                 
@@ -156,7 +156,7 @@ JavaScript's built-in objects are part of the **global object** in the environme
 4. **Number**
     - The `Number` object is used to represent and manipulate numeric values.
     - In JavaScript, all numbers (integers and floats) are represented as 64-bit floating-point numbers.
-    - **Number Methods**
+    - **Number Methods:**
         - **toFixed( )**
             - Rounds the number to a specified number of decimal places and returns it as a string.
                 
@@ -198,7 +198,7 @@ JavaScript's built-in objects are part of the **global object** in the environme
 5. **Date**
     - The `Date` object is used to work with dates and times.
     - It can create, format, and manipulate dates.
-    - **Date Methods**
+    - **Date Methods:**
         - **getDate( ), getMonth( ), getFullYear( )**
             - Retrieve specific parts of the date: day, month, and year.
                 
