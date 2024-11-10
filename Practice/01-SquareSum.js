@@ -9,6 +9,6 @@ function squareSum(numbers){
     }
     
     return totalSum;  // Returns the final value of totalSum
-  }
+}
   
-  console.log(squareSum([1, 2, 3]));  // Calls the squareSum function with [1, 2, 3] as the argument.
+console.log(squareSum([1, 2, 3]));  // Calls the squareSum function with [1, 2, 3] as the argument.
