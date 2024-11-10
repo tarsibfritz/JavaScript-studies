@@ -2,7 +2,6 @@
 
 function makeUpperCase(str) {   
     let convertWord = str.toUpperCase();
-    
     return convertWord;
 }
   

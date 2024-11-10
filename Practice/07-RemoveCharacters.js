@@ -2,6 +2,6 @@
 
 function removeChar(str){
     return str.slice(1, -1)  // creates a substring of str starting from index 1 (the second character) and going up to the second-to-last character (not including the last character). 
-  };
+};
   
-  console.log(removeChar("Calopsita"))
+console.log(removeChar("Calopsita"))

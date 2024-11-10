@@ -2,7 +2,6 @@
 
 function booleanToString(b){  
     let convertToString = String(b);
-    
     return convertToString;
 }
 
