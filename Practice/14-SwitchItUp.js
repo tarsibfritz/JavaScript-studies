@@ -3,6 +3,9 @@
 function switchItUp(number){  
     if (number >= 0 && number <=9 ){
       switch (number){
+          case 0:
+            return "Zero";
+            break
           case 1:
             return "One";
             break
