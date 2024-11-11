@@ -15,7 +15,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let person = { name: "Alice", age: 25, city: "Paris" };
-                
                 console.log(Object.keys(person)); // ["name", "age", "city"]
                 ```
                 
@@ -24,18 +23,16 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let person = { name: "Alice", age: 25, city: "Paris" };
-                
                 console.log(Object.values(person)); // ["Alice", 25, "Paris"]
                 ```
                 
         - **Object.entries( )**
             - Returns an array of `[key, value]` pairs for each property in the object.
             
-            ```jsx
-            let person = { name: "Alice", age: 25, city: "Paris" };
-            
-            console.log(Object.entries(person)); // [["name", "Alice"], ["age", 25], ["city", "Paris"]]
-            ```
+                ```jsx
+                let person = { name: "Alice", age: 25, city: "Paris" };
+                console.log(Object.entries(person)); // [["name", "Alice"], ["age", 25], ["city", "Paris"]]
+                ```
             
 2. **Array**
     - The `Array` object is used to create arrays, which are lists of ordered elements.
@@ -46,7 +43,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let fruits = ["apple", "banana"];
-                
                 fruits.push("orange"); // ["apple", "banana", "orange"]
                 ```
                 
@@ -55,7 +51,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let fruits = ["apple", "banana"];
-                
                 let lastFruit = fruits.pop(); // "orange", fruits = ["apple", "banana"]
                 ```
                 
@@ -64,7 +59,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let fruits = ["apple", "banana"];
-                
                 let firstFruit = fruits.shift(); // "apple", fruits = ["banana"]
                 ```
                 
@@ -81,7 +75,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let numbers = [1, 2, 3];
-                
                 let evenNumbers = numbers.filter(num => num % 2 === 0); // [2]
                 ```
                 
@@ -90,7 +83,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let numbers = [1, 2, 3];
-                
                 let sum = numbers.reduce((total, num) => total + num, 0); // 6
                 ```
                 
@@ -103,25 +95,22 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let greeting = "Hello";
-                
                 console.log(greeting.toUpperCase()); // "HELLO"
                 ```
                 
         - **indexOf( )**
             - Finds the first occurrence of a substring and returns its index, or `1` if not found.
             
-            ```jsx
-            let greeting = "Hello";
-            
-            console.log(greeting.indexOf("e")); // 1
-            ```
+                ```jsx
+                let greeting = "Hello";
+                console.log(greeting.indexOf("e")); // 1
+                ```
             
         - **slice( )**
             - Extracts a section of the string and returns it as a new string. Takes two parameters: the starting index and (optional) ending index.
                 
                 ```jsx
                 let greeting = "Hello";
-                
                 console.log(greeting.slice(1, 4)); // "ell"
                 ```
                 
@@ -130,7 +119,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let greeting = "Hello";
-                
                 console.log(greeting.replace("Hello", "Hi")); // "Hi"
                 ```
                 
@@ -139,7 +127,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let greeting = "Hello";
-                
                 console.log(greeting.includes("ell")); // true
                 ```
                 
@@ -148,7 +135,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let sentence = "Hello world";
-                
                 console.log(sentence.split(" ")); // ["Hello", "world"]
                 
                 ```
@@ -162,7 +148,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let num = 123.456;
-                
                 console.log(num.toFixed(2)); // "123.46"
                 ```
                 
@@ -171,7 +156,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let num = 123.456;
-                
                 console.log(Number.isNaN(123)); // false
                 console.log(Number.isNaN(NaN)); // true
                 ```
@@ -190,7 +174,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let str = "123.45";
-                
                 console.log(Number.parseInt(str)); // 123
                 console.log(Number.parseFloat(str)); // 123.45
                 ```
@@ -204,7 +187,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let today = new Date();
-                
                 console.log(today.getDate()); // current day of the month
                 console.log(today.getMonth() + 1); // current month (0-indexed, so add 1)
                 console.log(today.getFullYear()); // current year
@@ -215,7 +197,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let today = new Date();
-                
                 console.log(today.toDateString()); // "Sat Nov 09 2024"
                 ```
                 
@@ -224,7 +205,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let today = new Date();
-                
                 console.log(today.getTime()); // e.g., 1700000000000
                 ```
                 
@@ -281,7 +261,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let regex = /hello/i; // case-insensitive
-                
                 console.log(regex.test("Hello World")); // true
                 ```
                 
@@ -290,7 +269,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let match = regex.exec("Hello World");
-                
                 console.log(match[0]); // "Hello"
                 ```
                 
@@ -299,7 +277,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let text = "Hello, world!";
-                
                 let matchResult = text.match(/world/);
                 console.log(matchResult); // ["world"]
                 ```
@@ -320,7 +297,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let sentence = "apple,banana,orange";
-                
                 let fruits = sentence.split(","); // ["apple", "banana", "orange"]
                 ```
                 
@@ -333,7 +309,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let user = { name: "Alice", age: 25 };
-                
                 let jsonString = JSON.stringify(user); // '{"name":"Alice","age":25}'
                 ```
                 
@@ -342,7 +317,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let jsonString = JSON.stringify(user); // '{"name":"Alice","age":25}'
-                
                 let jsonObj = JSON.parse(jsonString); // { name: "Alice", age: 25 }
                 ```
                 
@@ -355,7 +329,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let promise = Promise.resolve("Success!");
-                
                 promise.then(result => console.log(result)); // "Success!"
                 ```
                 
@@ -364,7 +337,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let rejectedPromise = Promise.reject("Error!");
-                
                 rejectedPromise.catch(error => console.log(error)); // "Error!"
                 ```
                 
@@ -386,7 +358,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
                 
                 ```jsx
                 let resolvedPromise = Promise.resolve("Success!");
-                
                 resolvedPromise.then(result => console.log(result)); // "Success!"
                 ```
                 
@@ -394,7 +365,6 @@ JavaScript's built-in objects are part of the **global object** in the environme
             - Returns a promise that is rejected with a specified reason. Useful for creating promises that you want to reject immediately.
                 
                 ```jsx
-                **let rejectedPromise = Promise.reject("Error!");
-                
-                rejectedPromise.catch(error => console.log(error)); // "Error!"**
+                let rejectedPromise = Promise.reject("Error!");d
+                rejectedPromise.catch(error => console.log(error)); // "Error!"
                 ```
